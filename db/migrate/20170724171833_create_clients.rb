@@ -1,7 +1,7 @@
 class CreateClients < ActiveRecord::Migration[5.1]
   def change
 
-    create_table :client do |t|
+    create_table :clients do |t|
         t.text :name
         t.text :phone
         t.text :datestamp
@@ -10,6 +10,6 @@ class CreateClients < ActiveRecord::Migration[5.1]
 
         t.timestamps
     end
-    
+
   end
 end
